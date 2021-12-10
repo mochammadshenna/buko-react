@@ -1,0 +1,120 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "jiraya",
+      "email": "calonhokage@fakemail.com",
+      "password": "supersecret",
+      "role": "user",
+      "phoneNumber": "089991231231",
+      "address": "Kampung Konoha"
+    },
+    {
+      "id": 2,
+      "username": "Kakashi",
+      "email": "ninjakonoha@fakemail.com",
+      "password": "supersecret",
+      "role": "admin",
+      "phoneNumber": "089991231232",
+      "address": "Kampung Konoha"
+    }
+  ],
+  "item": [
+    {
+      "id": 5,
+      "nama": "Triple Whopper With Cheese",
+      "description": "Our Triple Whopper Sandwich features three ¼ lb* savory flame-grilled beef patties topped with melted American cheese, juicy tomatoes, fresh lettuce, creamy mayonnaise, ketchup, crunchy pickles, and sliced white onions on a soft sesame seed bun.",
+      "price": 10.99,
+      "imgUrl": "https://cdn.sanity.io/images/czqk28jt/prod_bk_us/f3d7588c1f46ad6a1afaa3404cec65ed6053879f-1333x1333.png?w=750&q=40&fit=max&auto=format",
+      "authorId": 2,
+      "categoryId": 1,
+      "createdAt": "11/22/2021, 3:08:30 PM",
+      "updatedAt": "11/22/2021, 3:08:30 PM"
+    },
+    {
+      "id": 6,
+      "nama": "Triple Whopper With Cheese",
+      "description": "Our Triple Whopper Sandwich features three ¼ lb* savory flame-grilled beef patties topped with melted American cheese, juicy tomatoes, fresh lettuce, creamy mayonnaise, ketchup, crunchy pickles, and sliced white onions on a soft sesame seed bun.",
+      "price": 10.99,
+      "imgUrl": "https://cdn.sanity.io/images/czqk28jt/prod_bk_us/f3d7588c1f46ad6a1afaa3404cec65ed6053879f-1333x1333.png?w=750&q=40&fit=max&auto=format",
+      "authorId": 2,
+      "categoryId": 1,
+      "createdAt": "11/22/2021, 3:08:30 PM",
+      "updatedAt": "11/22/2021, 3:08:30 PM"
+    },
+    {
+      "nama": "Burger",
+      "description": "Description",
+      "price": "99000",
+      "imgUrl": "https://cdn.sanity.io/images/czqk28jt/prod_bk_us/f3d7588c1f46ad6a1afaa3404cec65ed6053879f-1333x1333.png?w=750&q=40&fit=max&auto=format",
+      "authorId": "1",
+      "categoryId": "1",
+      "createdAt": "11/22/2021, 3:08:30 PM",
+      "updatedAt": "11/22/2021, 3:08:30 PM",
+      "id": 14
+    },
+    {
+      "nama": "Burger 2",
+      "description": "Description",
+      "price": "99000",
+      "imgUrl": "https://cdn.sanity.io/images/czqk28jt/prod_bk_us/f3d7588c1f46ad6a1afaa3404cec65ed6053879f-1333x1333.png?w=750&q=40&fit=max&auto=format",
+      "authorId": "1",
+      "categoryId": "1",
+      "createdAt": "11/22/2021, 3:08:30 PM",
+      "updatedAt": "11/22/2021, 3:08:30 PM",
+      "id": 15
+    }
+  ],
+  "category": [
+    {
+      "name": "Flame Grilled",
+      "id": 1
+    },
+    {
+      "name": "Pizza",
+      "id": 2
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "itemId": 1,
+      "name": "Bun"
+    },
+    {
+      "id": 2,
+      "itemId": 1,
+      "name": "Ketchup"
+    },
+    {
+      "id": 3,
+      "itemId": 1,
+      "name": "Beef"
+    },
+    {
+      "id": 4,
+      "itemId": 1,
+      "name": "Mayonaise"
+    },
+    {
+      "id": 5,
+      "itemId": 2,
+      "name": "Bun"
+    },
+    {
+      "id": 6,
+      "itemId": 2,
+      "name": "Ketchup"
+    },
+    {
+      "id": 7,
+      "itemId": 2,
+      "name": "Beef"
+    },
+    {
+      "id": 8,
+      "itemId": 2,
+      "name": "Mayonaise"
+    }
+  ]
+}
