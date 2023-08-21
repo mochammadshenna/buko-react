@@ -34,11 +34,12 @@ export default function LoginPage() {
         navigate("/");
         toast.success("Login success!");
       } else {
-        const error = await response.json();
-        throw {error};
+        // const error = await response.json();
+        // throw {error};
       };
-    } catch ({error}) {
-      toast.error(error.message);
+    } catch (error) {
+      // toast.error(error.message);
+      console.log(error);
     }
   }
 
