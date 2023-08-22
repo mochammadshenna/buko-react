@@ -1,4 +1,4 @@
-# P3-Challenge-Widya Wicara
+# P3-Challenge-Hacktiv8
 
 - Tema Aplikasi: Restaurant App
 - CSS Framework: Tailwind CSS
@@ -53,10 +53,10 @@ Target:
 
 Target:
 
-- [X] React-Router
-- [X] Membuat router user-side (min: home, detail)
-- [X] Membuat router admin-side (min: login, add admin, CRUD main entitas, CRUD another entitas)
-- [X] Membuat privateRoute untuk admin
+- [x] React-Router
+- [x] Membuat router user-side (min: home, detail)
+- [x] Membuat router admin-side (min: login, add admin, CRUD main entitas, CRUD another entitas)
+- [x] Membuat privateRoute untuk admin
 - [x] Redux
 - [x] Create Store
 - [x] Create Reducer
@@ -66,6 +66,7 @@ Target:
 
 > Implementasi react router, membuat component untuk private router.
 > Mengkonversi local state ke redux.
+
 ## TASK 4
 
 Target:
@@ -78,13 +79,13 @@ Target:
 
 > Implementasi redux-thunk dan combine reducer dan mengaplikasikanya ke challenge saya.
 > kemudian membuat server menggunakan express js, postgreSQL, dan sequelize.
+
 ## TASK 5
 
 Target:
 
 - [x] SQL Transaction
 - [x] Membuat transaction saat membuat entitas baru pada main table. Pastikan ada assosiasi di dalamnya
-
 
 **Report:**
 

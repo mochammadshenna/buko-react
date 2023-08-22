@@ -16,7 +16,7 @@ export default function NavBar({ toggleMenu }) {
         <div className="bg-white h-full dark:bg-gray-700">
           <div className="flex items-center justify-start pt-6 ml-8">
             <p className="font-bold dark:text-white text-xl">
-              BurgerKong Admin
+              Buco Admin
             </p>
           </div>
           <nav className="mt-6">
